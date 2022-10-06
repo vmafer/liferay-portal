@@ -140,6 +140,12 @@ public class ServicePreAction extends Action {
 
 	public ServicePreAction() {
 		_initImportLARFiles();
+		_overrideLayoutPortalProperties();
+	}
+
+	private void _overrideLayoutPortalProperties() {
+		// verificar se tem as keys, se tiver ai pega o valor e coloca
+		// nas PropValues.
 	}
 
 	@Override
